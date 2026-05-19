@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <p id="count">0</p>
+  <button onclick="change(1)">Artır</button>
+  <button onclick="change(-1)">Azalt</button>
+
+  <script>
+    let n = 0;
+    function change(x) {
+      n += x;
+      document.getElementById('count').textContent = n;
+    }
+  </script>
+</body>
+</html>
